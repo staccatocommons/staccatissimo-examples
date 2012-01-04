@@ -2,28 +2,28 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>commons-parent-pom</artifactId>
+		<artifactId>staccatissimo-parent-pom</artifactId>
 		<groupId>net.sf.staccatocommons</groupId>
 		<version>1.2-beta-3</version>
 	</parent>
 	<groupId>net.sf.staccatocommons</groupId>
-	<artifactId>commons-instrument-examples</artifactId>
+	<artifactId>staccatissimo-instrument-examples</artifactId>
 	<version>1.2-beta-3</version>
 	
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.staccatocommons</groupId>
-			<artifactId>commons-lang</artifactId>
+			<artifactId>staccatissimo-lang</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.staccatocommons</groupId>
-			<artifactId>commons-instrument</artifactId>
+			<artifactId>staccatissimo-instrument</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.staccatocommons</groupId>
-			<artifactId>commons-testing</artifactId>
+			<artifactId>staccatissimo-testing</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
